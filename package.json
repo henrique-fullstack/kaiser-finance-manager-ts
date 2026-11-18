@@ -1,0 +1,28 @@
+{
+  "name": "kaiser-finance-manager-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsup src/index.ts --format cjs --dts --clean",
+    "start": "node dist/index.js",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.6",
+    "eslint": "^10.15.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.10.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^9.0.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.73.0"
+  }
+}
